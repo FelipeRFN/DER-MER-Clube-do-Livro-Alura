@@ -17,3 +17,16 @@ Durante o curso nos foi apresentado os conceitos do Modelo Entidade Relacionamen
 * __Relacionamentos__: Os relacionamentos definem como cada entidade se relaciona entre si. Como no exemplo do projeto um cliente que **faz** pedidos ou um estoque que **contém** livros. Estes relacionamentos contém um processo chamado _cardinalidade_. Em suma a cardinalidade define a obrigatoriedade de uma entidade estar contida em outra entidade por meio do relacionamento, podendo não ser obrigado, ter no mínimo uma entidade ou podendo conter várias entidades. Por exemplo a relação de **cliente _faz_ pedido**, a cardinalidade entre os 2 pode ser definida como cliente(0,n) e pedido(1,n), pois em nosso modelo de negócio um cliente não precisa necesáriamente realizar um pedido para ser considerado cliente mas diversos clientes podem fazer pedidos tornando o mínimo 0 e o máximo n. De mesma forma para o pedido existir precisa haver um cliente realizando a operação tornando seu mínimo 1, mas diversos clientes podem fazer diversos pedidos tornando o seu máximo n.
 
 * __Atributos__: Os atributos irão descrever as entidades, como por exemplo na entidade pessoa que possui os atributos nome, telefone de contato, email, endereço, um ID(que no caso é considerada uma chave primária). Tudo para descrever a entidade e explicar como ela se comporta e quais dados irá armazenar no banco de dados. Em geral as entidades carregam um atributo que é considerado uma chave primária ou chave estrangeira. As chaves primárias são únicas na tabela e não se repetem. Já as chaves estrangeiras são chaves primárias de uma entidade que foram herdadas de uma outra entidade para evitar redundância de dados e otimizar o processo de busca. Vale lembrar que em determinadas entidades se pode encontrar chaves primárias e chaves estrangeiras na mesa tabela (como no caso da entidade pedido que contém uma chave primária própria e uma chave estrangeira da tabela cliente) assim como podem ter chaves estrangeiras que agem como sua chave primária (como no caso do estoque que, por ser apenas 1, não necessita de uma chave única para identificar diferentes estoques e por conta disso utiliza as chaves estrangeiras de livro e editora como chaves primárias).
+
+<br>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<br>
+
+<h2 align="center"> DER </h2>
+<br>
+
+O Diagrama Entidade Relacionamento (DER) foi apresentado para a elaboração da Livraria Virtual onde foi montado um diagrama representando cada entidade, atributo e relacionamento e abordados as suas características como por exemplo entidades fortes e fracas, chaves primárias e estrangeiras, atributos autorelacionáveis e 
+
+
