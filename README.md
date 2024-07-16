@@ -20,13 +20,18 @@ Durante o curso nos foi apresentado os conceitos do Modelo Entidade Relacionamen
 
 <br>
 
+<div align="center"> 
+  <img src = "https://dhg1h5j42swfq.cloudfront.net/2021/05/10191416/bd-mer.png") </>
+</div>
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <br>
 
 <h2 align="center"> DER </h2>
 <br>
+O Diagrama Entidade Relacionamento (DER) foi apresentado para a elaboração visual da Livraria Virtual onde foi montado um esquema conseitual representando cada entidade, atributo e relacionamento além de serem abordadas as suas características como por exemplo entidades fortes e fracas, chaves primárias e estrangeiras, atributos autorelacionáveis, dentre outros. Foi utilizado o aplicativo BrModelo para a criação do esquema e durante o curso foram utilizadas algumas das principais ferramentas para a criação e edição das Entidades e seus Relacionamentos tentando sempre manter as boas práticas nas nomeclaturas além de organizar o esquema de maneira que fique organizado e se mantenha legível para os demais "membros da equipe". 
 
-O Diagrama Entidade Relacionamento (DER) foi apresentado para a elaboração da Livraria Virtual onde foi montado um diagrama representando cada entidade, atributo e relacionamento e abordados as suas características como por exemplo entidades fortes e fracas, chaves primárias e estrangeiras, atributos autorelacionáveis e 
+<br><br><br><br>
 
 
