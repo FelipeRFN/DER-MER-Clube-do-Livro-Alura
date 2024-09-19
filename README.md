@@ -29,9 +29,28 @@ Durante o curso nos foi apresentado os conceitos do Modelo Entidade Relacionamen
 <br>
 
 <h2 align="center"> DER </h2>
+<h3 align="center">Modelo Conceitual</h3>
 <br>
-O Diagrama Entidade Relacionamento (DER) foi apresentado para a elaboração visual da Livraria Virtual onde foi montado um esquema conseitual representando cada entidade, atributo e relacionamento além de serem abordadas as suas características como por exemplo entidades fortes e fracas, chaves primárias e estrangeiras, atributos autorelacionáveis, dentre outros. Foi utilizado o aplicativo BrModelo para a criação do esquema e durante o curso foram utilizadas algumas das principais ferramentas para a criação e edição das Entidades e seus Relacionamentos tentando sempre manter as boas práticas nas nomeclaturas além de organizar o esquema de maneira que fique organizado e se mantenha legível para os demais "membros da equipe". 
+<p>O Diagrama Entidade Relacionamento (DER) foi apresentado para a elaboração visual da Livraria Virtual onde foi montado um esquema conseitual representando cada entidade, atributo e relacionamento além de serem abordadas as suas características como por exemplo entidades fortes e fracas, chaves primárias e estrangeiras, atributos autorelacionáveis, dentre outros. Foi utilizado o aplicativo BrModelo para a criação do esquema e durante o curso foram utilizadas algumas das principais ferramentas para a criação e edição das Entidades e seus Relacionamentos tentando sempre manter as boas práticas nas nomeclaturas além de organizar o esquema de maneira que fique organizado e se mantenha legível para os demais "membros da equipe". </p>
 
-<br><br><br><br>
+<br><br>
+
+![image](https://github.com/user-attachments/assets/5e2bdee3-ee4c-4401-90f0-7d66e29913e5)
+
+
+
+
+
+<br>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h3 align="center">Modelo Lógico</h3>
+<br>
+<p>Foi realizando também um esquema lógico onde foi possível definir algumas características de cada atributo, como por exemplo o id_cliente que foi definido como uma string e que teria no máximo 20 caracteres. Esta é uma etapa importante pois nos ajuda a definir quais tipos de dados serão inseridos no banco de dados e como eles serão tratados, como no exemplo mencionado, e assim a equipe pode ficar na mesma página. A estrutura é bastante semelhante ao modelo conceitual e alguns programas como o próprio BrModelo conseguem criar um modelo lógico diretamente do modelo conceitual feito. Ainda é necessário fazer algumas correções e ajustes no modelo criado porém já agiliza boa parte do processo.</p>
+
+<br><br>
+
+![image](https://github.com/user-attachments/assets/44d944e3-de6c-42be-a6ef-40ce225d2f23)
 
 
